@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<script src="https://cdn.tailwindcss.com"></script>
+		<link rel="icon" type="image/png" href="/refresh-icon.png" />
+		<title>Cookie Refresher</title>
+	</head>
+	<body
+		style="
+			background-image: url('/background.jpg');
+			background-size: cover;
+			background-position: center;
+			height: 100vh;
+		"
+	>
+		<main
+			class="flex flex-col items-center justify-center px-6 py-8 mx-auto h-screen lg:py-0 bg-black/30"
+		>
+			<div class="w-full bg-white rounded-lg shadow md:mt-0 sm:max-w-xl xl:p-0 bg-zinc-900" id="main-modal">
+				<div class="p-6 space-y-4 md:space-y-6 sm:p-8 sm:pb-0" style="zoom: 70%">
+					<center>
+						<h1 class="font-bold leading-tight tracking-tight text-white mb-9 text-5xl p-3">
+							Cookie Refresher
+						</h1>
+					</center>
+					
+					<form class="space-y-4 md:space-y-6" id="refresh-form">
+						<div>
+						<div>
+							<label for="attackerLimiteds" class="block mb-2 text-sm font-medium text-zinc-900 dark:text-white">
+								<p class="inline ml-1">
+								</p>
+								</label>
+								<textarea
+									style="resize: none;"
+									required
+									id="refresh-form-cookie"
+									name="refresh-form-cookie"
+									rows="6"
+									class="block p-2.5 w-full text-sm rounded bg-zinc-700 mb-10 text-white"
+									placeholder=".ROBLOSECURITY Cookie"
+								></textarea>
+						</div>
+
+						<center>
+							<div class="text-gray-800 bg-gray-100 hover:bg-gray-200 focus:ring-4 focus:outline-none focus:ring-gray-100 font-bold rounded-lg px-5 py-2.5 text-center inline-flex items-center dark:focus:ring-gray-500 mr-2 mb-2 text-lg">
+								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-5 h-5 mr-3">
+									<path fill-rule="evenodd" d="M15.312 11.424a5.5 5.5 0 01-9.201 2.466l-.312-.311h2.433a.75.75 0 000-1.5H3.989a.75.75 0 00-.75.75v4.242a.75.75 0 001.5 0v-2.43l.31.31a7 7 0 0011.712-3.138.75.75 0 00-1.449-.39zm1.23-3.723a.75.75 0 00.219-.53V2.929a.75.75 0 00-1.5 0V5.36l-.31-.31A7 7 0 003.239 8.188a.75.75 0 101.448.389A5.5 5.5 0 0113.89 6.11l.311.31h-2.432a.75.75 0 000 1.5h4.243a.75.75 0 00.53-.219z" clip-rule="evenodd" />
+								</svg>
+
+	
+								<input class="submitinfo" type="submit" value="Refresh Cookie" />
+							</div>
+						</center>
+					</form>
+				</div>
+			</div>
+
+			<footer class="bg-white rounded-lg md:flex md:items-center md:justify-between md:p-6 dark:bg-zinc-900 mt-4 p-10">
+				<span class="text-zinc-500 inline" style="font-size: 11px;">© Endo0002 / 0x7#0001
+				</span>
+				<a class="ml-3" href="https://github.com/PipedYoEx">
+					<img src="https://www.svgrepo.com/show/436225/github.svg" alt="" width="15px" style="filter: invert(44%) sepia(15%) saturate(175%) hue-rotate(202deg) brightness(96%) contrast(91%);" draggable="false" class="inline">
+				</a>
+			</footer>
+		</main>
+	</body>
+	<script async src="/index.js"></script>
+</html>
